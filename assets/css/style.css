@@ -1,6 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+.intro {
+    display: flex;
+    border-style: solid;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.intro-two {
+    display: flex;
+    border-radius: 2px;
+    justify-content: center;
+}
+
+
+header nav {
+    margin: 12px 10px;
+    border-style: groove;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+body {
+    display: block;
+}
+
 .background-color {
-    background-color:brown;
+    background-color: beige;
 }
 .font-color {
-    color: white;
+    color: black;
 }
