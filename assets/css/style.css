@@ -9,6 +9,10 @@ header {
     background-color: #100e0c;
 }
 
+header img {
+    width: 10%;
+}
+
 header h1 {
     font-weight: bold;
     font-size: 36px;
