@@ -42,6 +42,60 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* hero style start */
+
+.hero {
+    background-image: url("../pictures/hero-image-1.avif");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    background-color: #d1ad4c;
+    padding: 20px;
+    width: 500px;
+    color: #a87d30;
+    border: 3px solid #a87d30;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+    
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #a87d30;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #a87d30;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #d1ad4c;
+    background-color: #a87d30;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* hero style end */
+
 footer {
     background: #a87d30;
     width: 100%;
