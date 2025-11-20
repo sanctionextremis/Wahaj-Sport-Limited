@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #100e0c;
 }
 
 header {
@@ -9,7 +10,6 @@ header {
     background-color: #100e0c;
     display: flex;
     justify-content: space-between;
-
 }
 
 header img {
@@ -55,7 +55,8 @@ body {
 /* hero style start */
 
 .hero {
-    background-image: url("../pictures/hero-image-1.avif");
+    /* background-image: url("../pictures/hero-image-1.avif"); */
+    background-color: #100e0c;
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -108,7 +109,7 @@ body {
 
 .section-title {
     font-size: 55px;
-    color: #100e0c;
+    color: #a87d30;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     display: inline-block;
@@ -125,11 +126,12 @@ body {
 
 .intro {
     text-align: center;
+    background-color: #100e0c;
 }
 
 .intro p {
     line-height: 1.7;
-    color: #100e0c;
+    color: #a87d30;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -137,7 +139,7 @@ body {
 
 .steps {
     text-align: center;
-    background: #d1ad4c;
+    background: #100e0c;
 }
 
 .steps div {
@@ -166,6 +168,7 @@ body {
 
 .cars {
     text-align: center;
+    background-color: #100e0c;
 }
 
 .automobile {
@@ -217,6 +220,7 @@ body {
 .contact {
     background: #a87d30;
     text-align: center;
+    background-color: #100e0c;
 }
 
 .contact-info iframe {
@@ -234,7 +238,7 @@ body {
 }
 
 .contact-info h3 {
-    color: #100e0c;
+    color: #a87d30;
     font-size: 32px;
 }
 
