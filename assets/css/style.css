@@ -56,6 +56,9 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+#financing, #our-inventory, #reach-out {
+    padding: 250px;
+}
 /* hero style start */
 
 .hero {
@@ -122,9 +125,7 @@ body {
     scroll-margin-top: 30px;
 }
 
-#financing, #our-inventory, #reach-out {
-    padding: 200px;
-}
+
 
 .primary-border {
     border-color: #d1ad4c;
@@ -282,6 +283,8 @@ footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
+    background-color: #a87d30;
+    color: #100e0c;
 }
 
 footer a {
@@ -311,6 +314,18 @@ footer a {
         font-size: 20px;
     }
 
+    #financing, #our-inventory, #reach-out {
+    padding: 180px;
+    }
+
+    header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 24px;
+    }
+    .cars img {
+        padding-top: 115px;
+    }
     footer h2, footer div {
         text-align: center;
         width:100%;
@@ -382,7 +397,6 @@ footer a {
    }
 
 }
-
 
 /* colour scheme
 #024e76 = #a87d30
