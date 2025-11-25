@@ -16,7 +16,8 @@ header {
 }
 
 header img {
-    width: 10%;
+    width: 15%;
+    height: 15%;
 }
 
 header h1 {
@@ -47,7 +48,7 @@ header nav ul li {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 body {
@@ -181,9 +182,9 @@ body {
 }
 
 .automobile {
-    width: 900px;
+    /* width: 900px; */
     margin: 0 auto 30px auto;
-    background: #a87d30;
+    /*background: #a87d30; */
     color: #d1ad4c;
     overflow: auto;
 }
@@ -291,7 +292,9 @@ footer a {
 @media screen and (max-width:980px) {
     header {
         padding-bottom: 0;
-        justify-content: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
     }
 
     header h1 {
