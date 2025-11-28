@@ -323,6 +323,7 @@ footer a {
     font-weight: lighter;
     font-size: 24px;
     }
+
     .cars img {
         padding-top: 115px;
     }
@@ -346,6 +347,10 @@ footer a {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {  
+    body {
+        max-width: 766px;
+    }
+    
     section {
         padding: 30px 15px;
     }
@@ -382,6 +387,7 @@ footer a {
         margin: 0 auto;
         text-align: center;
     }
+
     .automobile {
         display: flex;
         width: 100%;
@@ -412,28 +418,186 @@ footer a {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-   .section-title {
-    width: 95%;
-   }
+    header {
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        padding: 20px 35px;
+        background-color: #100e0c;
+        display: flex;
+        justify-content: space-between;
+    }
 
-   .intro p {
-    width: 100%;
-   }
+    header img {
+        width: 20%;
+        height: 20%;
+    }
 
-   .automobile {
-    flex: 0 100%;
-   }
+    header h1 {
+        font-weight: bold;
+        font-size: 36px;
+        color: #d1ad4c;
+        margin: 0;
+        display: inline;
+    }
 
-   .contact-info {
-    text-align: center;
-   }
+    header a {
+        text-decoration: none;
+        color: #d1ad4c;
+    }
 
-   .contact-info > * {
-    flex: 0 100%;
-   }
+    header nav {
+        float: right;
+        margin: 7px 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
 
+    header nav ul li {
+        display: inline;
+    }
+
+    header nav ul li a {
+        padding: 10px 15px;
+        font-weight: lighter;
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    .section-title {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cars h3  {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .cars info {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .cars img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .cars {
+        flex: 100%;
+    }
+
+    .contact-info {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact-info iframe {
+        display: flex;
+        justify-content: center;
+        flex: 1 100%;
+        padding: auto;
+    }
+
+    .automobile {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-left {
+        text-align: center;
 }
 
+    .automobile-bio {
+        padding: 35px;
+        float: left;
+        width: 100%;
+}
+    .text-right {
+        text-align: center;
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    iframe {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+    /* .contact section {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        flex-direction: column;
+        background: #a87d30;
+        text-align: center;
+        background-color: #100e0c;
+    }
+
+    .contact-info iframe {
+        size: 350px;
+        padding: 100x;
+        flex-direction: column;
+        
+    }
+
+    .contact-info div {
+        padding-right: 50px;
+        width: 300px;
+        height: 300px;
+        vertical-align: top;
+        text-align: left;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+
+    .contact-info h3 {
+        color: #a87d30;
+        font-size: 32px;
+    }
+
+    .contact-info p, .contact-info address {
+        margin: 20px 0;
+        line-height: 1.5;
+        font-size: 20px;
+        font-style: normal;
+    }
+
+    .contact-info h3 {
+        text-align: center;
+    }
+
+    .contact-info p {
+        font-size: 12px;
+    }
+}
+*/
 /* colour scheme
 #024e76 = #a87d30
 #fce138 = #d1ad4c
@@ -496,4 +660,4 @@ body {
 }
 .font-color {
     color: black;
-}
+} */
