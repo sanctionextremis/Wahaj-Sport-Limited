@@ -313,7 +313,7 @@ footer a {
     }
 
     #financing, #our-inventory, #reach-out {
-    padding: 80px;
+    padding: 180px;
     }
 
     header nav ul li a {
@@ -414,7 +414,7 @@ footer a {
     }
 
     #financing, #our-inventory, #reach-out {
-    padding: 80px;
+    padding: 180px;
     }
 }
 
@@ -857,9 +857,10 @@ footer a {
     }
 
     #financing, #our-inventory, #reach-out {
-    padding-top: 180px;
+    padding: 80px;
+    padding-top:180px;
     }
-
+    
     .contact {
         width:100%;
         background: #a87d30;
