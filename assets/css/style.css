@@ -57,7 +57,8 @@ body {
 }
 
 #financing, #our-inventory, #reach-out {
-    padding: 250px;
+    padding-top: 250px;
+
 }
 /* hero style start */
 
@@ -313,7 +314,7 @@ footer a {
     }
 
     #financing, #our-inventory, #reach-out {
-    padding: 80px;
+    padding: 180px;
     }
 
     header nav ul li a {
@@ -414,7 +415,7 @@ footer a {
     }
 
     #financing, #our-inventory, #reach-out {
-    padding: 80px;
+    padding: 180px;
     }
 }
 
@@ -783,7 +784,7 @@ footer a {
         font-size: 25px;
         text-align: center;
         margin: 0 auto;
-        width: 100%;
+        
         display: flex;
         justify-content: center;
     }
@@ -835,13 +836,13 @@ footer a {
 
     .text-left {
         text-align: center;
-}
+    }
 
     .automobile-bio {
         padding: 35px;
         float: left;
         width: 100%;
-}
+    }
     .text-right {
         text-align: center;
     }
@@ -908,7 +909,7 @@ footer a {
         font-size: 20px;
         margin: 0 auto;
         padding-left: 20px;
-}
+    }
 }
     /* .contact section {
         display: flex;
