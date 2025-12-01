@@ -290,6 +290,60 @@ footer a {
 }
 
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 2560px) {
+    header {
+        padding-bottom: 0;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li {
+        font-size: 20px;
+    }
+
+    #financing, #our-inventory, #reach-out {
+    padding: 400px;
+    }
+
+    header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 24px;
+    }
+
+    .cars img {
+        padding-top: 115px;
+    }
+    footer h2, footer div {
+        text-align: center;
+        width:100%;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .cars {
+        flex: 1 100%;
+    }
+
+    .contact-info iframe {
+        flex: 1 100%;
+    }
+}
+
 @media screen and (max-width:980px) {
     header {
         padding-bottom: 0;
@@ -414,7 +468,7 @@ footer a {
     }
 
     #financing, #our-inventory, #reach-out {
-    padding: 80px;
+    padding: 180px;
     }
 }
 
@@ -857,9 +911,10 @@ footer a {
     }
 
     #financing, #our-inventory, #reach-out {
-    padding-top: 180px;
+    padding: 80px;
+    padding-top:180px;
     }
-
+    
     .contact {
         width:100%;
         background: #a87d30;
